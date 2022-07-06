@@ -14,4 +14,18 @@ module.exports = {
         new LiveReloadPlugin()
     ],
     watch: true,
+    module:
+    {
+        rules:
+        [
+            {
+                test: /\.css$/,
+                use:
+                [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
+    }
 }
