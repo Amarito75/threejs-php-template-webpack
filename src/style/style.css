@@ -1,14 +1,22 @@
-body
+
+*
 {
-    background: linear-gradient(#34E89E, #0F3443);
+    padding: 0;
+    margin: 0;
 }
 
+body,
+html
+{
+    overflow: hidden;
+}
 
-canvas
-{   
+.webgl
+{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background: grey;
 }
