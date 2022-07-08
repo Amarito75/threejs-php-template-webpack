@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import './style/style.css';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import gsap from 'gsap';
 
 
 export default class World
